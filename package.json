@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "description": "",
   "private": true,
-  "scripts": {},
+  "scripts": {
+    "build": "npx webpack --mode development"
+  },
   "keywords": [],
   "author": "We",
   "license": "ISC",
