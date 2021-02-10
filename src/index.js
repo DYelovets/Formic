@@ -1,11 +1,10 @@
 import './styles.css';
-import Component from './Component';
-import useless, * as MyMath from './math';
+import * as MyMath from './math';
 
-const container = document.getElementById('root');
+console.time();
+console.log(MyMath.pow(523, 75));
+console.timeEnd();
 
-console.log(Component);
-const result = MyMath.pow(150, 5);
-console.log(MyMath.div(50, 150));
-
-console.log(useless());
+console.time();
+console.log(MyMath.pow(523, 75));
+console.timeEnd();
