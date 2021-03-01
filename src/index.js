@@ -1,10 +1,11 @@
-import './styles.css';
-import * as MyMath from './math';
+//import './styles.css';
+import React from 'react';
+import ReactDOM from 'react-dom';
+import App from './App';
 
-console.time();
-console.log(MyMath.pow(523, 75));
-console.timeEnd();
+ReactDOM.render(
+      <App /> ,
+  document.getElementById('root')
+);
 
-console.time();
-console.log(MyMath.pow(523, 75));
-console.timeEnd();
+

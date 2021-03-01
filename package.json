@@ -11,7 +11,17 @@
   "author": "We",
   "license": "ISC",
   "dependencies": {
-    "lodash": "^4.17.20"
+    "babel": "^6.23.0",
+    "formic": "0.0.10",
+    "lodash": "^4.17.20",
+    "node": "^15.8.0",
+    "prop-types": "^15.7.2",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-router-dom": "^5.2.0",
+    "sass": "^1.32.8",
+    "scss": "^0.2.4",
+    "yup": "^0.32.9"
   },
   "devDependencies": {
     "@babel/core": "^7.12.13",
